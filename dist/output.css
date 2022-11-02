@@ -565,16 +565,16 @@ video {
   order: 2;
 }
 
-.order-4 {
-  order: 4;
+.order-5 {
+  order: 5;
 }
 
 .order-3 {
   order: 3;
 }
 
-.order-5 {
-  order: 5;
+.order-4 {
+  order: 4;
 }
 
 .order-6 {
@@ -594,6 +594,18 @@ video {
 .mx-3 {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
