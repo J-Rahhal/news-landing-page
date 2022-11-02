@@ -559,6 +559,10 @@ video {
 
 @taiwind components;
 
+.left-24 {
+  left: 6rem;
+}
+
 .order-1 {
   order: 1;
 }
@@ -598,6 +602,14 @@ video {
   margin-right: 0.75rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-20 {
   margin-bottom: 5rem;
 }
@@ -608,18 +620,6 @@ video {
 
 .mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.mb-3 {
-  margin-bottom: 0.75rem;
-}
-
-.mb-10 {
-  margin-bottom: 2.5rem;
-}
-
-.mb-8 {
-  margin-bottom: 2rem;
 }
 
 .flex {
@@ -646,6 +646,10 @@ video {
   width: 100%;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -660,6 +664,14 @@ video {
 
 .items-end {
   align-items: flex-end;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .justify-around {
@@ -679,6 +691,10 @@ video {
 .divide-grayishblue > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-opacity: 1;
   border-color: hsl(233 8% 79% / var(--tw-divide-opacity));
+}
+
+.self-end {
+  align-self: flex-end;
 }
 
 .bg-verydarkblue {
