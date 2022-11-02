@@ -8,7 +8,16 @@ module.exports = {
       lg: '976px',
       xl: '1440px'
     },
-    extend: {},
+    extend: {
+      gridColumnStart: {
+        '1' : '1'
+      },
+      gridColumnEnd: {
+        '3' : '3'
+
+      },
+
+    },
   },
   plugins: [],
 }
