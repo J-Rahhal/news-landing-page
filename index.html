@@ -10,7 +10,8 @@
 </head>
 
 <body>
-    <div class="mx-2 my-12 grid grid-cols-1 grid-rows-1 gap-2 md:mx-44 md:grid-cols-3 md:grid-rows-4 md:gap-6" id="grid-container">
+    <div class="mx-2 my-12 grid grid-cols-1 grid-rows-1 gap-2 md:mx-44 md:grid-cols-3 md:grid-rows-4 md:gap-6"
+        id="grid-container">
         <div class="flex justify-between items-end md:col-span-3 md:flex md:justify-between order-1">
             <div id="logo">
                 <img src="images/logo.svg" alt="">
@@ -24,7 +25,23 @@
             </div>
             <!--Hamburger Menu to be added-->
             <div id="hamburger-menu" class="flex justify-between md:hidden">
-                <img src="images/icon-menu.svg" alt="menu icon" class="self-end cursor-pointer" id="menu_icon">
+                <img src="images/icon-menu.svg" alt="menu icon" class="self-end cursor-pointer" id="menu">
+            </div>
+
+            <div id="hamburger-links" class="md:hidden">
+                <div id="close_menu">
+                    <img src="/images/icon-menu-close.svg" alt="close menu icon"
+                        class="absolute z-10 right-8 top-10 cursor-pointer md:hidden" id="close_icon">
+                </div>
+
+                <div id="links-menu" class="flex flex-col items-center justify-evenly h-full">
+                    <a href="#" class="hover:underline underline-offset-8">Home</a>
+                    <a href="#" class="hover:underline underline-offset-8">News</a>
+                    <a href="#" class="hover:underline underline-offset-8">Popular</a>
+                    <a href="#" class="hover:underline underline-offset-8">Trending</a>
+                    <a href="#" class="hover:underline underline-offset-8">Categories</a>
+                </div>
+
             </div>
         </div>
 
@@ -77,10 +94,10 @@
         <div class="order-6 md:col-span-3 md:flex md:justify-evenly">
             <!--retro pc-->
             <div id="retro-pc" class="flex mb-2">
-               <div id="retro-pc-img" class="mx-3">
-                <img src="images/image-retro-pcs.jpg" alt="retro pc" class="object-cover w-full min-h-full">
-               </div>
-               <div id="retro-pc-description" class="flex flex-col justify-around">
+                <div id="retro-pc-img" class="mx-3">
+                    <img src="images/image-retro-pcs.jpg" alt="retro pc" class="object-cover w-full min-h-full">
+                </div>
+                <div id="retro-pc-description" class="flex flex-col justify-around">
                     <div id="post-one">
                         <h2 class="text-darkgrayishblue text-6xl">01</h2>
                     </div>
@@ -90,49 +107,50 @@
                     <div id="par-one">
                         <p class="text-lg text-darkgrayishblue">What happens when old PCs are given modern upgrades?</p>
                     </div>
-               </div>
+                </div>
             </div>
 
             <!--Laptop-->
             <div id="laptop" class="flex mb-2">
                 <div id="laptop-img" class="mx-3">
-                 <img src="images/image-top-laptops.jpg" alt="laptop=" class="object-cover w-full min-h-full">
+                    <img src="images/image-top-laptops.jpg" alt="laptop=" class="object-cover w-full min-h-full">
                 </div>
                 <div id="laptop-description" class="flex flex-col justify-around">
-                     <div id="post-trwo">
-                         <h2 class="text-darkgrayishblue text-6xl">02</h2>
-                     </div>
-                     <div id="heading-two">
-                         <h3 class="text-xl font-bold text-verydarkblue">Reviving Retro PCs</h3>
-                     </div>
-                     <div id="par-two">
-                         <p class="text-lg text-darkgrayishblue">What happens when old PCs are given modern upgrades?</p>
-                     </div>
+                    <div id="post-trwo">
+                        <h2 class="text-darkgrayishblue text-6xl">02</h2>
+                    </div>
+                    <div id="heading-two">
+                        <h3 class="text-xl font-bold text-verydarkblue">Reviving Retro PCs</h3>
+                    </div>
+                    <div id="par-two">
+                        <p class="text-lg text-darkgrayishblue">What happens when old PCs are given modern upgrades?</p>
+                    </div>
                 </div>
-             </div>
+            </div>
 
-             <!--gaming-->
-             <div id="gaming" class="flex">
+            <!--gaming-->
+            <div id="gaming" class="flex">
                 <div id="gaming-pc-img" class="mx-3">
-                 <img src="images/image-gaming-growth.jpg" alt="gaming controller" class="object-cover w-full min-h-full">
+                    <img src="images/image-gaming-growth.jpg" alt="gaming controller"
+                        class="object-cover w-full min-h-full">
                 </div>
                 <div id="gaming-description" class="flex flex-col justify-around">
-                     <div id="post-three">
-                         <h2 class="text-darkgrayishblue text-6xl">03</h2>
-                     </div>
-                     <div id="heading-three">
-                         <h3 class="text-xl font-bold text-verydarkblue">Reviving Retro PCs</h3>
-                     </div>
-                     <div id="par-three">
-                         <p class="text-lg text-darkgrayishblue">What happens when old PCs are given modern upgrades?</p>
-                     </div>
+                    <div id="post-three">
+                        <h2 class="text-darkgrayishblue text-6xl">03</h2>
+                    </div>
+                    <div id="heading-three">
+                        <h3 class="text-xl font-bold text-verydarkblue">Reviving Retro PCs</h3>
+                    </div>
+                    <div id="par-three">
+                        <p class="text-lg text-darkgrayishblue">What happens when old PCs are given modern upgrades?</p>
+                    </div>
                 </div>
-             </div>
+            </div>
 
         </div>
     </div>
 
-    <script src="/js/script.js" defer></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>
